@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: 136, 58, 234;
+  --accent-light: 224, 204, 250;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top right, rgb(30, 27, 75), rgb(88, 28, 135), rgb(30, 27, 75));
+}
+
+.hover-glow:hover {
+  animation: glow 2s infinite;
+}
